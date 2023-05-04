@@ -13,7 +13,7 @@ const array = [];
 
 setInterval(() => {
   // assigning random stuff to simulate using memory
-  for (let i = 0; i < 5_00_000; i++) {
+  for (let i = 0; i < 500_000; i++) {
     const a = i * 2;
     array.push(a);
   }
