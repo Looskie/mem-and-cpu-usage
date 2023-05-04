@@ -1,0 +1,20 @@
+{
+  "name": "mem-and-cpu-usage",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "https://github.com/Looskie/mem-and-cpu-usage.git",
+  "author": "Cody Miller <hello@looskie.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc -p ."
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "console-table-printer": "^2.11.1",
+    "tsx": "^3.12.7"
+  }
+}
